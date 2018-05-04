@@ -56,7 +56,7 @@ an example call in ipython would be:
 
 `Classifier.getRootPrediction('signal_pid.root', 'BDT_TrainedOnEvt.pkl', 'signal_ml.root')`
 
-please make sure that `signal_pid.root` and `savedRF.pkl` exist in the same directory. This function will create named 
+please make sure that `signal_pid.root` and `BDT_TrainedOnEvt.pkl` exist in the same directory. This function will create named 
 `signal_ml.root` which contain Ml output probability distributions.
 
 4. Finally in your analysis code `tut_ana.C` use `fRun->AddFriend("signal_ml.root");` to be able to access the Ml output probability 
