@@ -54,7 +54,7 @@ in hand, it accepts three parameters
 * output file (which will contain Ml probability distributions).
 an example call in ipython would be:
 
-`Classifier.getRootPrediction('signal_pid.root', 'savedRF.pkl', 'signal_ml.root')`
+`Classifier.getRootPrediction('signal_pid.root', 'BDT_TrainedOnEvt.pkl', 'signal_ml.root')`
 
 please make sure that `signal_pid.root` and `savedRF.pkl` exist in the same directory. This function will create named 
 `signal_ml.root` which contain Ml output probability distributions.
