@@ -50,7 +50,7 @@ just type in ipython e.g `help(Classifier.PlotFeature)`, then you will get a doc
 For the purpose of using machine learning output probability distributions in your analysis, the `getRootPrediction()` method is
 in hand, it accepts three parameters 
 * input file (pid file, last step of PANDARoot simulation).
-* input trained model (at the moment only Random Forest classifier is available `savedRF.pkl` ).
+* input trained model (at the moment only Boosted Decision Trees (BDT) is available `BDT_TrainedOnEvt.pkl` ).
 * output file (which will contain Ml probability distributions).
 an example call in ipython would be:
 
